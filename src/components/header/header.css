@@ -1,0 +1,15 @@
+.header {
+  color: #fff;
+}
+.header ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style-type: none;
+  cursor: pointer;
+}
+.header ul li.active {
+  background: #777;
+  padding: 10px 12px;
+  color: #fff;
+}
